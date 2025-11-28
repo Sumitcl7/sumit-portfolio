@@ -2,7 +2,7 @@
 
 # **Sumit Kumar —  Portfolio**
 
-### **🌐 Live Portfolio:**
+###  Live Portfolio:**
 
  **[https://sumit673.vercel.app](https://sumit673.vercel.app)**
 
@@ -11,7 +11,7 @@ Features a custom music player, premium motion design, and sleek glass-aesthetic
 
 ---
 
-## 🎯 **About This Portfolio**
+##  **About This Portfolio**
 
 This website showcases:
 
@@ -40,14 +40,14 @@ This website showcases:
 
 ##  **Features**
 
-### 🔮 Hero Section
+###  Hero Section
 
 * Smooth stagger animations
 * Gradient text effects
 * Responsive image placement (Adisingh-style layout)
 * Professional highlights section
 
-### 🎵 Custom Music Player
+###  Custom Music Player
 
 * Autoplay
 * Waveform animation
@@ -57,13 +57,13 @@ This website showcases:
 * Fully responsive
 * Non-blocking audio playback (fixed)
 
-### 📝 Blog Integration
+###  Blog Integration
 
 * Fetches posts from Hashnode API
 * Fallback message on rate limit
 * Clean typography
 
-### 🛠 Work / Projects Page
+###  Work / Projects Page
 
 * Updated descriptions
 * Clean card layout
