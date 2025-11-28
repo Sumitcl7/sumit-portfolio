@@ -1,0 +1,95 @@
+/* -------------------------------------------------- */
+/* Tailwind + Base Imports */
+/* -------------------------------------------------- */
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------------------------------- */
+/* Root Variables (Light) */
+/* -------------------------------------------------- */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-sans: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+  --font-mono: var(--font-geist-mono, monospace);
+}
+
+/* -------------------------------------------------- */
+/* Dark Mode Colors */
+/* -------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #e5e5e5;
+  }
+}
+
+/* Force Tailwind to use our CSS variables */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+/* -------------------------------------------------- */
+/* Global Reset */
+/* -------------------------------------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Smooth font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -------------------------------------------------- */
+/* Reduced Motion — Accessibility */
+/* -------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01s !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* -------------------------------------------------- */
+/* Hide scrollbar (clean UI) */
+/* -------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* -------------------------------------------------- */
+/* Selection Color */
+/* -------------------------------------------------- */
+::selection {
+  background: rgba(147, 51, 234, 0.4); /* purple highlight */
+  color: white;
+}
