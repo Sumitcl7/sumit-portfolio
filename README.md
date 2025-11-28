@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# **Sumit Kumar —  Portfolio**
 
-First, run the development server:
+### **🌐 Live Portfolio:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ **[https://sumit673.vercel.app](https://sumit673.vercel.app)**
+
+A modern, fast, and animated developer portfolio built with **Next.js 16**, **TailwindCSS**, **Framer Motion**, and fully optimized for production with **Turbopack**.
+Features a custom music player, premium motion design, and sleek glass-aesthetic UI.
+
+---
+
+## 🎯 **About This Portfolio**
+
+This website showcases:
+
+* AI-native systems & cloud-infra engineering
+* Distributed compute workflows and HPC experiments
+* DevOps + Kubernetes + AWS + Terraform setups
+* SaaS projects, backend systems & ML pipelines
+* Blogs auto-fetched from Hashnode
+* A polished developer identity with interactive UX
+
+---
+
+##  **Tech Stack**
+
+| Category               | Tools                                                   |
+| ---------------------- | ------------------------------------------------------- |
+| **Frontend Framework** | Next.js 16 (App Router + Turbopack)                     |
+| **Styling**            | Tailwind CSS, Custom Design System                      |
+| **Animation**          | Framer Motion (optimized variants)                      |
+| **Hosting**            | Vercel (Production optimized)                           |
+| **Icons**              | react-icons                                             |
+| **Fonts**              | Geist Sans / Mono                                       |
+| **Other Features**     | Custom floating music player, glass UI, hero animations |
+
+---
+
+##  **Features**
+
+### 🔮 Hero Section
+
+* Smooth stagger animations
+* Gradient text effects
+* Responsive image placement (Adisingh-style layout)
+* Professional highlights section
+
+### 🎵 Custom Music Player
+
+* Autoplay
+* Waveform animation
+* Next / Previous buttons
+* Auto-minimize on scroll
+* Glassmorphism + hover transitions
+* Fully responsive
+* Non-blocking audio playback (fixed)
+
+### 📝 Blog Integration
+
+* Fetches posts from Hashnode API
+* Fallback message on rate limit
+* Clean typography
+
+### 🛠 Work / Projects Page
+
+* Updated descriptions
+* Clean card layout
+* GitHub links attached
+
+---
+
+##  **Project Structure**
+
+```
+app/
+ ├─ components/
+ │   ├─ Hero.tsx
+ │   ├─ Navbar.tsx
+ │   ├─ Footer.tsx
+ │   ├─ MusicPlayer.tsx
+ │   └─ Background.tsx
+ │
+ ├─ blog/page.tsx
+ ├─ work/page.tsx
+ ├─ api/hashnode/route.ts
+ │
+ ├─ globals.css
+ └─ layout.tsx
+public/
+ ├─ me.jpg
+ └─ music/songs/
+      ├─ song1.mp3
+      ├─ song2.mp3
+      └─ song3.mp3
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 **Local Development**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Sumitcl7/sumit-portfolio.git
+cd sumit-portfolio
 
-## Learn More
+npm install
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  **Production Build**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  **Deployment**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This site is deployed on **Vercel**:
+👉 [https://sumit673.vercel.app](https://sumit673.vercel.app)
+
+To redeploy:
+
+```bash
+vercel --prod
+```
+
+---
+
+## 🤝 **Connect With Me**
+
+* **LinkedIn:** [https://www.linkedin.com/in/sumit-kumar-2bb99428a](https://www.linkedin.com/in/sumit-kumar-2bb99428a)
+* **Email:** (add if you want)
+* **Hashnode:** [https://hashnode.com/@sumitcl7](https://hashnode.com/@sumitcl7)
+
+---
+
+## ⭐ **If this portfolio inspires you, drop a star on the repo!**
+
+---
+
+
+
