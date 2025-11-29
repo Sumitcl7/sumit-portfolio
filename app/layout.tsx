@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import MusicPlayer from "./components/MusicPlayer";
 import Background from "./components/Background";
 import PageTransition from "./components/PageTransition";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Sumit Kumar — AI, Cloud & Software Engineering",
@@ -34,6 +35,9 @@ export default function RootLayout({
         <main className="relative z-10 max-w-5xl mx-auto px-6 pt-24 pb-20">
           <PageTransition>{children}</PageTransition>
         </main>
+
+        {/* Footer */}
+        <Footer />
 
       </body>
     </html>
