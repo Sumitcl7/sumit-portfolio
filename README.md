@@ -122,7 +122,7 @@ npm start
 ##  **Deployment**
 
 This site is deployed on **Vercel**:
-👉 [https://sumit673.vercel.app](https://sumit673.vercel.app)
+ [https://sumit673.vercel.app](https://sumit673.vercel.app)
 
 To redeploy:
 
@@ -132,7 +132,7 @@ vercel --prod
 
 ---
 
-## 🤝 **Connect With Me**
+##  **Connect With Me**
 
 * **LinkedIn:** [https://www.linkedin.com/in/sumit-kumar-2bb99428a](https://www.linkedin.com/in/sumit-kumar-2bb99428a)
 * **Email:** (add if you want)
@@ -140,7 +140,7 @@ vercel --prod
 
 ---
 
-## ⭐ **If this portfolio inspires you, drop a star on the repo!**
+##  **If this portfolio inspires you, drop a star on the repo!**
 
 ---
 
