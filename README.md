@@ -1,15 +1,15 @@
----
+
 
 # **Sumit Kumar —  Portfolio**
 
-###  Live Portfolio:**
+###  Live Portfolio:
 
  **[https://sumit673.vercel.app](https://sumit673.vercel.app)**
 
 A modern, fast, and animated developer portfolio built with **Next.js 16**, **TailwindCSS**, **Framer Motion**, and fully optimized for production with **Turbopack**.
 Features a custom music player, premium motion design, and sleek glass-aesthetic UI.
 
----
+
 
 ##  **About This Portfolio**
 
@@ -98,7 +98,7 @@ public/
 
 ---
 
-## 🚀 **Local Development**
+##  **Local Development**
 
 ```bash
 git clone https://github.com/Sumitcl7/sumit-portfolio.git
@@ -135,7 +135,7 @@ vercel --prod
 ##  **Connect With Me**
 
 * **LinkedIn:** [https://www.linkedin.com/in/sumit-kumar-2bb99428a](https://www.linkedin.com/in/sumit-kumar-2bb99428a)
-* **Email:** (add if you want)
+* **Email:**  krsumits7017@gmail.com
 * **Hashnode:** [https://hashnode.com/@sumitcl7](https://hashnode.com/@sumitcl7)
 
 ---
